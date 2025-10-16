@@ -1,0 +1,78 @@
+site_name: My site
+site_url: https://mydomain.org/mysite
+theme:
+  name: material
+  # font
+  font:
+    text: JetBrains Mono
+    code: JetBrains Mono
+  # Palette
+  palette: 
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  # palette:
+  #   # Dark Mode
+  #   - scheme: slate
+  #     toggle:
+  #       icon: material/weather-sunny
+  #       name: Dark mode
+  #     primary: green
+  #     accent: deep purple
+
+  #   # Light Mode
+  #   - scheme: default
+  #     toggle:
+  #       icon: material/weather-night
+  #       name: Light mode
+  #     primary: blue
+  #     accent: deep orange
+  # features
+  features:
+    - header.autohide
+    - navigation.tabs
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.prefetch
+    - navigation.tracking
+    - navigation.tabs.sticky
+    - navigation.sections
+    # - toc.integrate
+    - navigation.top
+    - content.code.copy
+    # - navigation.footer
+
+# Markdown Extensions
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+extra:
+  # generator: false
+  extra:
+  social:
+    - icon: fontawesome/brands/mastodon 
+      link: https://fosstodon.org/@squidfunk
+
+nav:
+  - Home: home.md
+  - Section 1:
+     - Page 1: section-1/page-1.md
+     - Page 2: section-1/page-2.md
+  - Section 2:
+     - Page 1: section-2/page-1.md
+     - Page 2: section-2/page-2.md
