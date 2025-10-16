@@ -71,6 +71,7 @@ extra:
 nav:
   - Home: index.md
   - Section 1:
+     - Home: section-1/home.md
      - Page 1: section-1/page-1.md
      - Page 2: section-1/page-2.md
   - Section 2:
