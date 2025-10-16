@@ -69,7 +69,7 @@ extra:
       link: https://fosstodon.org/@squidfunk
 
 nav:
-  - Home: home.md
+  - Home: index.md
   - Section 1:
      - Page 1: section-1/page-1.md
      - Page 2: section-1/page-2.md
